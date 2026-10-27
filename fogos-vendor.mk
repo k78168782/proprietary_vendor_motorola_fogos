@@ -3255,6 +3255,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/fogos/proprietary/vendor/etc/sensors/config/strait_qmc6308_0_without_nfc.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/strait_qmc6308_0_without_nfc.json \
     vendor/motorola/fogos/proprietary/vendor/etc/sensors/config/strait_qmi8658_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/strait_qmi8658_0.json \
     vendor/motorola/fogos/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
+    vendor/motorola/fogos/proprietary/vendor/etc/tetras/portrait_repair_composite.model:$(TARGET_COPY_OUT_VENDOR)/etc/tetras/portrait_repair_composite.model \
     vendor/motorola/fogos/proprietary/vendor/etc/thermal-engine-fogos-camera.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-fogos-camera.conf \
     vendor/motorola/fogos/proprietary/vendor/etc/thermal-engine-fogos-game-normal.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-fogos-game-normal.conf \
     vendor/motorola/fogos/proprietary/vendor/etc/thermal-engine-fogos-game-perf.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-fogos-game-perf.conf \
@@ -3380,12 +3381,14 @@ PRODUCT_PACKAGES += \
     camera.qcom \
     com.qti.chi.override \
     fingerprint.goodix.default \
+    libAncFaceDetect \
     libBST3DDNS \
     libBSTHDRDETECT \
     libBSTMultiExpoGainHDR \
     libBSTNodeUtils \
     libaidenoiser \
     libaidenoiserv2 \
+    libancbase_fd \
     libarcsoft_chi_utils \
     libarcsoft_portrait_super_night_se_raw \
     libarcsoft_super_night_raw \
